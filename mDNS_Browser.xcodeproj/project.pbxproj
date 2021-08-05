@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B060A5026BBF4110080DB1D /* TCPnetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B060A4F26BBF4110080DB1D /* TCPnetClient.swift */; };
 		6B1533E126A985E3004FC2CD /* mCastBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1533E026A985E3004FC2CD /* mCastBrowser.swift */; };
 		6B723DDD26A8735E00E60FBE /* mDNS_BrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B723DDC26A8735E00E60FBE /* mDNS_BrowserApp.swift */; };
 		6B723DDF26A8735E00E60FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B723DDE26A8735E00E60FBE /* ContentView.swift */; };
 		6B723DE126A8737400E60FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B723DE026A8737400E60FBE /* Assets.xcassets */; };
 		6B723DE426A8737500E60FBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B723DE326A8737500E60FBE /* Preview Assets.xcassets */; };
+		6B7E561126B7FBC2009C8417 /* TCPnetServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7E561026B7FBC2009C8417 /* TCPnetServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B060A4F26BBF4110080DB1D /* TCPnetClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPnetClient.swift; sourceTree = "<group>"; };
 		6B1533E026A985E3004FC2CD /* mCastBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mCastBrowser.swift; sourceTree = "<group>"; };
 		6B723DD926A8735E00E60FBE /* mDNS_Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mDNS_Browser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B723DDC26A8735E00E60FBE /* mDNS_BrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mDNS_BrowserApp.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		6B723DE026A8737400E60FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B723DE326A8737500E60FBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B723DE526A8737500E60FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B7E561026B7FBC2009C8417 /* TCPnetServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPnetServer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				6B723DDC26A8735E00E60FBE /* mDNS_BrowserApp.swift */,
 				6B1533E026A985E3004FC2CD /* mCastBrowser.swift */,
+				6B7E561026B7FBC2009C8417 /* TCPnetServer.swift */,
+				6B060A4F26BBF4110080DB1D /* TCPnetClient.swift */,
 				6B723DDE26A8735E00E60FBE /* ContentView.swift */,
 				6B723DE026A8737400E60FBE /* Assets.xcassets */,
 				6B723DE526A8737500E60FBE /* Info.plist */,
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B723DDF26A8735E00E60FBE /* ContentView.swift in Sources */,
+				6B060A5026BBF4110080DB1D /* TCPnetClient.swift in Sources */,
 				6B723DDD26A8735E00E60FBE /* mDNS_BrowserApp.swift in Sources */,
+				6B7E561126B7FBC2009C8417 /* TCPnetServer.swift in Sources */,
 				6B1533E126A985E3004FC2CD /* mCastBrowser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

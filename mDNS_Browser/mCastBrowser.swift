@@ -25,7 +25,7 @@ class mCastBrowser: NSObject, ObservableObject, Identifiable {
   
   var browser: NWBrowser!
       
-    func scan(typeOf: String, domain: String) {
+  func scan(typeOf: String, domain: String) {
     ///Primarily use the Network Browser with the Bonjour descriptor
     let bonjourTCP = NWBrowser.Descriptor.bonjour(type: typeOf , domain: domain)
     
